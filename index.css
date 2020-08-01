@@ -14,7 +14,7 @@ body{
 	display: inline-block;
 	width: 100%;
 	height: 100px;
-	/*position: fixed;*/
+	
 }
 .nav ul{
 	list-style: none;
@@ -32,7 +32,7 @@ body{
 }
 @media only screen and (max-width: 600px) {
 	.nav ul li.right{
-	font-size: 10px;
+	font-size: 15px;
 }
 }
 @media only screen and (min-width: 600px) {
@@ -155,14 +155,15 @@ div.Home{
  	
  }
  .work h2{
- 	margin-top: 10px;
+ 	margin-top: 0;
  	font-size: 30px;
- 	text-align: center;
+ 	text-align:left;
  	color: red;
  	/*margin: 10px;*/
  	font-weight: bold;
  	text-shadow: 2px 2px 3px yellow;
- 	padding: 10px;
+ 	padding-left:  30px;
+ 	padding-top: 10px;
  	background-image: linear-gradient(to right, black,white);
  	background-attachment: fixed;
  	height: 60px;
@@ -183,7 +184,7 @@ div.Home{
    		
    		width: 200px;
    		font-size: 20px;
-   		background-color: black;
+   		background-color: white;
    		float: left;
    		border-radius: 5px;
         
@@ -199,20 +200,22 @@ div.Home{
    	div.desc{
    		padding: 10px;
    		text-align: center;
-   		color: white;
+   		color: black;
    		clear: both;
    		text-transform: uppercase;
    	
    	}
    	#h2{
-   		text-align: center;
- 	padding-left: 10px;
+   		padding-left:  30px;
+ 	padding-top: 10px;
+   		text-align: left;
+ 
  	color: red;
  	text-shadow: 2px 2px 3px yellow;
    	}
    
    div.About{
- 	background-image:linear-gradient(to right,black,gray);
+ 	/*background-image:linear-gradient(to right,black,gray); */
  	background-attachment: fixed;
  	clear: both;
  	word-spacing: 5px;
@@ -226,30 +229,36 @@ div.Home{
  	text-decoration: none;
  	color: white;
     background-attachment: fixed;
- 	background-image: linear-gradient(to right,black,gray);
+ 	/*background-image: linear-gradient(to right,black,gray);*/
  	margin-top: 0;
  }
  .Contact h1{
- 	text-align: center;
- 	padding-left: 10px;
+ 	padding-left:  30px;
+ 	padding-top: 10px;
+ 	text-align: left;
+ 	
  	color: red;
  	text-shadow: 2px 2px 3px yellow;
  }
  #ad{
+ 	
  	font-size: 25px;
  	padding-left: 10px;
  }
  #ad2{
+ 
  	font-size: 20px;
  	padding-left: 10px;
  }
  #phn{
+ 	
  	font-size: 20px;
  	text-decoration: none;
  	color: white;
  	padding-left: 10px;
  }
  #mail{
+ 	
  	font-size: 20px;
  	text-decoration: none;
  	color: white;
@@ -261,11 +270,12 @@ div.Home{
   #lcn{
   	font-size: 20px;
   	text-decoration: none;
-  	color: white;
+  	color:white;
   	padding-left: 10px;
   }	
 
   #fot{
+  	
   	text-align: center;
  	font-size: 10px;
  	text-decoration: none;
@@ -273,3 +283,10 @@ div.Home{
  	
  }
   
+ div.all{
+      background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+ 	/*background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);*/
+ 	/*background-image: linear-gradient(to right, #37ecba 0%, #72afd3 100%);*/
+ 	/*background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);*/
+ 	/*background-image: linear-gradient(to right, black, white);*/
+ } 
